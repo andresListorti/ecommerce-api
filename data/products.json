@@ -11,5 +11,18 @@
       "image1.jpg"
     ],
     "status": true
+  },
+  {
+    "id": "2",
+    "title": "Laptop Dell Otro",
+    "description": "Laptop potente",
+    "code": "LAP12322",
+    "price": 1200,
+    "stock": 10,
+    "category": "Computers",
+    "thumbnails": [
+      "image2.jpg"
+    ],
+    "status": true
   }
 ]

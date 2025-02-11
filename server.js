@@ -1,7 +1,10 @@
-const express = require("express");
+//const express = require("express");
+import express from "express";
 const app = express();
-const productsRouter = require("./routes/products");
-const cartsRouter = require("./routes/carts");
+// const productsRouter = require("./routes/products");
+// const cartsRouter = require("./routes/carts");
+import productsRouter from "./routes/products.js";
+import cartsRouter from "./routes/carts.js";
 
 app.use(express.json()); // Para manejar JSON en las peticiones
 
